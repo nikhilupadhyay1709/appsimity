@@ -1,0 +1,91 @@
+{
+    "info":{
+       "_postman_id":"52f093cd-1a99-dca1-9700-1260f825dbd7",
+       "name":"appsimity",
+       "schema":"https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+    },
+    "item":[
+       {
+          "name":"http://localhost:8000/person",
+          "id":"9ce6fd33-321b-305a-beea-757eec2f2db4",
+          "request":{
+             "method":"POST",
+             "header":[
+                {
+                   "key":"Content-Type",
+                   "value":"application/json"
+                }
+             ],
+             "body":{
+                "mode":"raw",
+                "raw":"{\n\t\"age\":64,\n\t\"email\":\"john@mcdonald.com\",\n\t\"firstname\":\"john\",\n\t\"lastname\":\"McDonald\",\n\t\"password\":\"23456\"\n\t\n}"
+             },
+             "url":"http://localhost:8000/person"
+          },
+          "response":[
+             
+          ]
+       },
+       {
+          "name":"http://localhost:8000/person",
+          "id":"c0968d74-7c56-8cb3-216c-6f4e81a05beb",
+          "request":{
+             "method":"GET",
+             "header":[
+                
+             ],
+             "body":{
+                "mode":"formdata",
+                "formdata":[
+                   
+                ]
+             },
+             "url":"http://localhost:8000/person"
+          },
+          "response":[
+             
+          ]
+       },
+       {
+          "name":"http://localhost:8000/person/60ee983b0844fdd3f637a27e",
+          "id":"280964f9-f79f-9cff-a4ef-1de492894680",
+          "request":{
+             "method":"PUT",
+             "header":[
+                {
+                   "key":"Content-Type",
+                   "value":"application/json"
+                }
+             ],
+             "body":{
+                "mode":"raw",
+                "raw":"{\n\t\"email\":\"john@mcdonald.com\",\n\t\"firstname\":\"upadhyay\",\n\t\"lastname\":\"McDonald\"\n\n\t\n}"
+             },
+             "url":"http://localhost:8000/person/60ee983b0844fdd3f637a27e"
+          },
+          "response":[
+             
+          ]
+       },
+       {
+          "name":"http://localhost:8000/person/60ee983b0844fdd3f637a27e",
+          "id":"115aa7c8-9639-a5ae-4fec-27b2afa68af9",
+          "request":{
+             "method":"DELETE",
+             "header":[
+                
+             ],
+             "body":{
+                "mode":"formdata",
+                "formdata":[
+                   
+                ]
+             },
+             "url":"http://localhost:8000/person/60ee983b0844fdd3f637a27e"
+          },
+          "response":[
+             
+          ]
+       }
+    ]
+ }

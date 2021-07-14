@@ -1,4 +1,4 @@
-module my-rest-api
+module appsimity
 
 go 1.16
 
